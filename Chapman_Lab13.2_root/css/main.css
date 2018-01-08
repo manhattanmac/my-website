@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400,900italic,900,700italic,700,400italic);
+
+
+
+/*These rules create the basic layout*/
+
+html {
+    background: #969292;
+}
+
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px ridge #000;
+    background: #3c3b3b;
+    font-family: 'Alegreya', serif;
+}
+
+header {
+    height: 400px;
+   /* background: #600a0a;*/
+    background-image:linear-gradient(darkred, black)
+    
+}
+
+article {
+    width: 1200 px;
+    height: 600px;
+    background: #383839;
+}
+
+footer {
+    height: 50px;
+    background: #000;
+    text-align: center;
+}
+
+
+/*These rules format the site navigation*/
+
+nav {
+    height: 100px;
+    width: 1200px;
+    background: #000;
+    position: fixed;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 40px;
+    padding-right: 25px;
+    text-align: right;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+    color: darkred;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: lightpink;
+}
+
+
+/*These rules format the site content*/
+
+p {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 100px;
+    color: lightgrey;
+    text-align: center;
+    padding-top: 175px;
+    text-shadow: 2px -20px 20px black;
+}
+
+h2 {
+    font-size: 16px;
+    color: #600a0a;
+    padding: 20px;
+}
+
+.p1 {
+    float: left;
+    width: 30%;
+    padding: 140px 10px 100px 175px;
+}
+
+.p2 {
+    float: right;
+    width: 30%;
+    padding: 140px 175px 100px 10px;
+}
+
+.dropcap {
+
+    float: left;
+    color: #600a0a;
+    font-size: 100px;
+    line-height: 40px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+}
